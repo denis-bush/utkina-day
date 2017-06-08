@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>День Уткиной</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="act-style.css">
+  </head>
+  <body>
+    <script src="action.js"></script>
+    <div class="dark_back" id="idDarkBack" onclick="randomQuote('none')">
+        <div class="b_close" onclick="randomQuote('none')">x</div>
+    </div>
+    <div class="pop-up" id="idPopUp">
+        <h1>Сегодня твой день!</h1>
+        <br>
+    </div>
+    
+    <header>
+      <nav class="nav has-shadow">
+        <div class="container">
+          <div class="nav-left">
+            <div class="nav-item">
+              <h1 class="title is-4">
+                День Уткиной
+              </h1>
+            </div>
+          </div>
+          <div class="nav-center">
+            <a class="nav-item">
+              <span class="icon">
+                <i class="fa fa-github"></i>
+              </span>
+            </a>
+            <a class="nav-item">
+              <span class="icon">
+                <i class="fa fa-vk"></i>
+              </span>
+            </a>
+          </div>
+          <div class="nav-right">
+            <div class="nav-item">
+              <a href="#" class="button">Sign in</a>
+              <a href="#" class="button is-primary">Sign up</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero is-dark is-small is-bold">
+      <div class="hero-body">
+        <div class="container flexed">
+          <div class="headings">
+            <h1 class="title">
+              Давайте отпразднуем 8 июня
+            </h1>
+            <h2 class="subtitle">
+              И поздравим великих людей (и Уткину)
+            </h2>
+          </div>
+          <div class="buttons">
+            <a href="#" class="button is-medium is-white is-outlined" onclick="playDOM()" id="b_play">Отпраздновать</a>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <a href="#" class="button is-primary is-medium" onclick="randomQuote('block')" id="b_quote">Открытка для Уткиной</a>
+          </div>
+        </div>
+        <div class="container list content">
+          <h3>Что интересного произошло в этот день:</h3>
+          <ul>
+            <li>1783 – вулкан Лаки в Исландии начал своё восьмимесячное извержение, самое крупное лавовое извержение в истории.</li>
+            <li>1843 – начало строительства железной дороги Петербург-Москва.</li>
+            <li>1912 – в Лос-Анджелесе учреждена киностудия Universal.</li>
+            <li>1940 – объявлено об открытии нептуния, 93-го элемента в таблице периодических элементов.</li>
+            <li>1946 – в Лондоне прошёл парад Победы.</li>
+            <li>1949 – роман Джорджа Оруэлла "1984" вышел в свет.</li>
+            <li>1965 – американские компании "Фрито-Лей" и "Пепси-Кола" объединились, образовав компанию "PepsiCo".</li>
+            <li>1984 – в Гильдию киноактёров США почётным членом принят Дональд Дак.</li>
+          </ul>
+          <h1>А ещё чей это день?</h1>
+        </div>
+      </div>
+    </section>
+    <main class="section">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column">
+            <div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/utk9.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content" id="1003">
+                <p class="title">
+                  “Там, где нас нет”
+                </p>
+                <p class="subtitle">
+                  Уткина
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+            <hr><div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/utk10.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  “Чудеса там, где в них верят”
+                </p>
+                <p class="subtitle">
+                  Уткина
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+            <hr><div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/west.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  Канье Уэст
+                </p>
+                <p class="subtitle">
+                  Рэпер, продюссер, дизайнер
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+            <hr><div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/jazz.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  Александр Красовицкий
+                </p>
+                <p class="subtitle">
+                  Солист питерской рок-группы «Animal ДжаZ»
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/tim.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  Тимоти Джон Бернерс-Ли
+                </p>
+                <p class="subtitle">
+                  Это тот мужик, который придумал Интернет.
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+            <hr><div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/utk8.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  “Напиши много бесполезных слов, и это будет как `голубоволосая Мику`”
+                </p>
+                <p class="subtitle">
+                  Уткина
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+            <hr>
+            <div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/utk14.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  “Тём, чё ты опять!”
+                </p>
+                <p class="subtitle">
+                  Уткина
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+            <hr>
+            <div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/utk2.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  “Как всё просто!”
+                </p>
+                <p class="subtitle">
+                  Елена Райнхардовна
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/ocean.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  Всемирный день океанов
+                </p>
+                <p class="subtitle">
+                  Океан
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+            <hr><div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/nancy.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  Нэнси Синатра
+                </p>
+                <p class="subtitle">
+                  Дочь Фрэнка Синатры, певица
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+            <hr><div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/utk6.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  “Блииииин... Я так торт хотела!.. :(”
+                </p>
+                <p class="subtitle">
+                  Уткина
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+            <hr><div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/muhammad.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  Пророк Мухаммед
+                </p>
+                <p class="subtitle">
+                  Умер, дав жизнь самой мирной религии нашего времени
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+          </div>
+          <div class="column">
+              <div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/utk7.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  “Я умная?”
+                </p>
+                <p class="subtitle">
+                  Уткина
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+            <hr><div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/utk1.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  “Потому что всё кончается на У”
+                </p>
+                <p class="subtitle">
+                  Уткина
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+            <hr><div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/utk12.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  “Я слишком знаменита. Миш, моя самооценка, она сейчас... взлетит!”
+                </p>
+                <p class="subtitle">
+                  Уткина
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+            <hr><div class="card">
+<div class="card-image">
+    <figure class="image is-4by3">
+      <img src="img/brekun.jpg" alt="Image">
+    </figure>
+</div>
+              <div class="card-content">
+                <p class="title">
+                  День социального работника в России
+                </p>
+                <p class="subtitle">
+                  Брекун
+                </p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>
+                    Share on <a href="#">Facebook</a>
+                  </span>
+                </p>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <a href="http://vbifonix.ru">Михаил Кононенко</a>. Курсы IT-Center по Javascript при поддержке Министерства Образования и Kraftsmen.
+          </p>
+          <p>
+            <a class="icon" href="https://vk.com/vbifonixor">
+              <i class="fa fa-vk"></i>
+            </a>
+            <a class="icon" href="https://github.com/vbifonixor">
+              <i class="fa fa-github"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

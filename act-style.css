@@ -1,0 +1,40 @@
+.dark_back {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+	overflow: auto;
+}
+	
+.pop-up {
+    width: 380px;
+    height: 570px;
+    margin: 50px auto;
+    display: none;
+    background: #fff;
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+	
+.b_close {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    float: right;
+    cursor: pointer;
+}
